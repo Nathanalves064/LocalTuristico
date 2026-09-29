@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pontos Turísticos em Minas Gerais</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="page">
+    <header>
+      <p class="headline">SUA PRÓXIMA VIAGEM: </p>
+      <h1>Conheça Minas Gerais</h1>
+    </header>
+    <section class="description">
+      <img src="assets/tiradentes.jpg" alt="Tiradentes">
+      <p class="subtitle">Minas Gerais, vasto em belezas naturais e culturais que vão desde patrimônios nacionais a arquiteturas modernas. Um pedaço da história brasileira marcado por simplicidade e significado nacional.</p>
+    </section>
     <main>
-      <header>
-        <p class="headline">SUA PRÓXIMA VIAGEM: </p>
-        <h1>Conheça Minas Gerais</h1>
-      </header>
-      <section id="about">
-        <img src="assets/tiradentes.jpg" alt="Tiradentes">
-        <p class="subtitle">Minas Gerais, vasto em belezas naturais e culturais que vão desde patrimônios nacionais a arquiteturas modernas. Um pedaço da história brasileira marcado por simplicidade e significado nacional.</p>
-      </section>
+      <div class="divider"></div>
       <div id="content">
-        <section id="title-list">
+        <section class="title-list">
           <p class="headline">PARA OS AMANTES DE HISTÓRIA</p>
           <h2>Descubra 3 destinos imperdíveis em Minas Gerais</h2>
           <p>Minas Gerais é um estado fascinante, rico em história, cultura e belezas naturais exuberantes. Para ajudar você a planejar sua próxima viagem ou conhecer mais sobre a região, selecionei três dos pontos turísticos mais emblemáticos e visitados do estado: </p>
@@ -26,37 +30,47 @@
         <div id="list">
           <section class="card-travel">
             <img src="assets/ouro-preto.png" alt="Ouro Preto">
-            <h2>1. Centro Histórico de Ouro Preto</h2>
-            <p>Uma das cidades históricas mais famosas do Brasil, Ouro Preto parece parada no tempo. O seu centro histórico é famoso pelas ladeiras de paralelepípedo, pelos casarões coloniais preservados e pelas imponentes igrejas barrocas com esculturas icônicas de Aleijadinho.</p>
-            <p class="strong">Notável para: </p>
+            <div class="content-card">
+              <h3>1. Centro Histórico de Ouro Preto</h3>
+              <p>Uma das cidades históricas mais famosas do Brasil, Ouro Preto parece parada no tempo. O seu centro histórico é famoso pelas ladeiras de paralelepípedo, pelos casarões coloniais preservados e pelas imponentes igrejas barrocas com esculturas icônicas de Aleijadinho.<br><br>
+              <strong>Bom para: </strong></p>
             <ul>
-              <li>História</li>
-              <li>Culinária</li>
+              <li class="Color1">História</li>
+              <li class="Color2">Culinária</li>
             </ul>
+            </div>
           </section>
           <section class="card-travel">
             <img src="assets/pampulha.jpg" alt="Pampulha">
-            <h2>2. Conjunto Moderno da Pampulha (Belo Horizonte)</h2>
-            <p>Localizado na capital, o Conjunto da Pampulha é um marco da arquitetura moderna mundial e reconhecido como Patrimônio Cultural da Humanidade pela UNESCO. Projetado por Oscar Niemeyer na década de 1940, o circuito ao redor da lagoa inclui a famosa Igreja de São Francisco de Assis (com os icônicos painéis de azulejos de Portinari), o Museu de Arte da Pampulha e a Casa do Baile.</p>
-            <p class="strong">Notável para: </p>
-            <ul>
-              <li>Passeios de bicicleta</li>
-            </ul>
+            <div class="content-card">
+              <h3>2. Conjunto Moderno da Pampulha (Belo Horizonte)</h3>
+              <p>Localizado na capital, o Conjunto da Pampulha é um marco da arquitetura moderna mundial e reconhecido como Patrimônio Cultural da Humanidade pela UNESCO. Projetado por Oscar Niemeyer na década de 1940, o circuito ao redor da lagoa inclui a famosa Igreja de São Francisco de Assis (com os icônicos painéis de azulejos de Portinari), o Museu de Arte da Pampulha e a Casa do Baile.<br><br> <strong>Bom para: </strong></p>
+              <ul>
+                <li class="Color1">Passeios de bicicleta</li>
+              </ul>
+            </div>
           </section>
           <section class="card-travel">
             <img src="assets/capitolio.jpg" alt="Capitólio">
-            <h2>3. Canyons de Capitólio (Lago de Furnas)</h2>
-            <p>Conhecido como o "Mar de Minas", o Lago de Furnas em Capitólio é cercado por imensos paredões de pedra que chegam a passar de 20 metros de altura. O local atrai turistas do mundo inteiro para passeios de lancha e escuna, trilhas ecológicas e mergulhos em cachoeiras de águas cristalinas escondidas entre os desfiladeiros.</p>
-            <p class="strong">Notável para: </p>
-            <ul>
-              <li>Família</li>
-              <li>Mergulhos</li>
-              <li>Fotos</li>
-            </ul>
+            <div class="content-card">
+              <h3>3. Canyons de Capitólio (Lago de Furnas)</h3>
+              <p>Conhecido como o "Mar de Minas", o Lago de Furnas em Capitólio é cercado por imensos paredões de pedra que chegam a passar de 20 metros de altura. O local atrai turistas do mundo inteiro para passeios de lancha e escuna, trilhas ecológicas e mergulhos em cachoeiras de águas cristalinas escondidas entre os desfiladeiros.<br><br> <strong>Bom para: </strong></p>
+              <ul>
+                <li class="Color3">Família</li>
+                <li class="Color4">Mergulhos</li>
+                <li class="Color2">Fotos</li>
+              </ul>
+            </div>
           </section>
+          <div class="divider"></div>
         </div>
       </div>
     </main>
-  </div>  
+    <div class="summary">
+      <p>As melhores coisas para fazer em Minas Gerais mostram a reputação do estado como o coração histórico e natural do Brasil.<br> Frequentemente vista como a essência da hospitalidade e da tradição mineira, você experimentará uma atmosfera única em termos de riqueza cultural, arquitetura colonial e paisagens exuberantes, já que a região recebe <br> um público apaixonado por arte e ecoturismo o ano todo.</p>
+    </div>
+    <footer>Feito com <img src="assets/heart.svg" alt="coracaozinho"> pela Rocketseat
+    </footer>
+  </div>
 </body>
 </html>
