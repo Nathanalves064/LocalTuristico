@@ -90,6 +90,14 @@ ul .Color4{
   text-transform: uppercase;
 }
 
+header .headline{
+  margin-bottom: 20px;
+}
+
+p + ul{
+  margin-top: -6px;
+}
+
 .divider {
   width: 100%;
   height: 1px;
@@ -104,6 +112,17 @@ ul .Color4{
   text-align: center;
   color: #333333;
   margin-top: 24px;
+}
+
+.title-list{
+  margin: 64px 0 20px;
+}
+
+.description img{
+  margin-top: 40px;
+}
+.content-card{
+  margin-top: 20px;
 }
 
 .summary{
@@ -126,19 +145,4 @@ footer{
 footer img{
   width: auto;
   vertical-align: middle;
-}
-
-.title-list{
-  margin: 64px 0 20px;
-}
-
-header .headline{
-  margin-bottom: 20px;
-}
-
-.description img{
-  margin-top: 40px;
-}
-.content-card{
-  margin-top: 20px;
 }
